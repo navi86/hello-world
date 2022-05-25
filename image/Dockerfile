@@ -3,8 +3,6 @@ ENV PORT=80
 
 ADD index.html /www/index.html
 
-# EXPOSE $PORT
-
 HEALTHCHECK CMD nc -z localhost $PORT
 
 # Create a basic webserver and run it until the container is stopped
