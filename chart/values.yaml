@@ -43,7 +43,7 @@ service:
   port: 80
 
 ingress:
-  enabled: true
+  enabled: false
   className: ""
   annotations: 
     external-dns.alpha.kubernetes.io/hostname: helloworld.navi86.com
